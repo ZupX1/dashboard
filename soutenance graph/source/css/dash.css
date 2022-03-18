@@ -1,0 +1,244 @@
+/*
+header
+*/
+
+body {
+  font-family: outfit;
+  margin: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+header {
+  height: 70px;
+  background-color: rgb(22, 89, 128);
+}
+
+.menu {
+  height: 70px;
+  line-height: 70px;
+  width: 350px;
+  background-color: rgb(42, 109, 233);
+  text-align: center;
+  font-family: outfit;
+  font-weight: 300;
+  float: left;
+}
+.menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu strong {
+  font-family: outfit;
+  font-weight: 700;
+}
+
+.header-content {
+  overflow: hidden;
+  height: 70px;
+  line-height: 40px;
+}
+
+.traveling {
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  width: 50%;
+}
+.traveling span {
+  display: inline-block;
+}
+.traveling .home {
+  font-family: outfit;
+  font-weight: 600;
+}
+.traveling a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.trv-content {
+  margin-left: 30px;
+}
+
+.search {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  width: 40%;
+  margin-top: 12px;
+}
+
+.search form {
+  padding: 0 20px;
+  text-align: right;
+}
+.search-input {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 65%;
+}
+
+.search button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-family: outfit;
+  font-weight: 300;
+}
+
+/* navigation */
+
+nav {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  bottom: 30px;
+  width: 350px;
+  background-color: rgb(31, 30, 30);
+}
+
+.onglets a,
+.subonglets a {
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  padding-left: 40px;
+  border-top: 1px solid rgb(48, 47, 47);
+  border-bottom: 1px solid black;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.subcontent {
+  background-color: rgb(19, 18, 18);
+}
+
+.subcontent a {
+  border: inherit;
+  height: 30px;
+  line-height: 30px;
+}
+
+.onglets a:hover,
+.subonglets a:hover {
+  background-color: rgb(36, 34, 34);
+  border-right: 5px solid rgb(22, 89, 128);
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer .company {
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .company a {
+  color: white;
+  text-decoration: none;
+}
+
+.chart {
+  display: block;
+  width: 30%;
+  margin-left: 770px;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.chart2 {
+  display: block;
+  width: 50%;
+  margin-left: 640px;
+  margin-top: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.chart3 {
+  display: block;
+  width: 30%;
+  margin-left: 770px;
+  margin-top: 65px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.chart4 {
+  display: block;
+  width: 50%;
+  margin-left: 650px;
+  margin-top: 170px;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  text-align: center, top;
+  font-size: 30px;
+  background-color: rgb(42, 109, 233);
+  border-radius: 8px;
+  color: white;
+}
+
+.pres {
+  margin-top: 40px;
+  margin-left: 920px;
+  font-size: 50px;
+}
+
+.img1 {
+  margin-left: 450px;
+  margin-top: 40px;
+}
+
+.img2 {
+  margin-left: 600px;
+  margin-top: 140px;
+}
+
+.img3 {
+  margin-left: 885px;
+  margin-top: -569px;
+}
+
+.img4 {
+  margin-left: 1460px;
+  margin-top: -227px;
+}
+
+.img5 {
+  margin-left: 1200px;
+  margin-top: 135px;
+}
+.titre h3 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-weight: 400;
+}

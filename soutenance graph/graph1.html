@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard Graphs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="source/css/dash.css"
+    />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <a href="index.html"><strong>Graphiques</strong> Alternance NWS</a>
+      </div>
+      <div class="header-content">
+        <div class="traveling">
+          <div class="trv-content">
+            <span class="home">
+              <a href="index.html">DASHBOARD</a>
+              <span class="path-divider">/</span>
+            </span>
+            <span>
+              <p>La taille des entreprises</p>
+            </span>
+          </div>
+        </div>
+        <div class="search">
+          <form action="#">
+            <input type="text" name="search" class="search-input" />
+            <button type="submit">Rechercher</button>
+          </form>
+        </div>
+    </header>
+    <nav>
+        <div class="onglets">
+            <a href="index.html">Dashboard</a>
+        </div>
+        <div class="subonglets" id="subonglets">
+            <a href="#">Graphiques &darr;</a>
+            <div class="subcontent hide" id="subcontent">
+                <a href="graph1.html">Taille des entreprises</a>
+                <a href="graph2.html">Type de structures</a>
+                <a href="graph3.html">Nombre d'alternants selon ...</a>
+                <a href="graph4.html">Localisation des entreprises</a>
+                <a href="graph5.html">Secteur d'activités</a>
+            </div>
+        </div>
+    </nav>
+    <div class="chart">
+        <div class="titre"> <h3>La taille des entreprises</h3></div>
+        <canvas id="chart1" aria-label="chart" role="img"> </canvas>
+    </div>
+    <footer>
+        <div class=company>
+            <a href="https://normandiewebschool.fr/">Normandie Web School</a>
+        </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="source/js/app.js"></script>
+  <script src="source/js/graph1.js"></script>
+</html>
